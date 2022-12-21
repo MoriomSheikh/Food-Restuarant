@@ -218,6 +218,12 @@ header .icons #menu-bars {
   header {
     padding: 1rem 2rem;
   }
+
+  section {
+    padding: 2rem;
+  }
+
+
 }
 
 @media (max-width:768px) {
@@ -227,7 +233,7 @@ header .icons #menu-bars {
 
   header .navbar {
     position: absolute;
-    top: 0;
+    top: 100%;
     left: 0;
     right: 0;
     background: #fff;
@@ -249,11 +255,16 @@ header .icons #menu-bars {
     font-size: 2rem;
     background: #eee;
   }
-}
 
-#search-form #search-box {
-  width: 90%;
-  margin: 0 1rem;
+
+  #search-form #search-box {
+    width: 90%;
+    margin: 0 1rem;
+  }
+
+  .home .home-slider .slide .content h3 {
+    font-size: 5rem;
+  }
 } */
 
 @media (max-width:991px) {
